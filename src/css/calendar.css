@@ -1,0 +1,348 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .box_container{
+      max-width: 700px;
+  }
+  
+  .registered_user {
+    display: block;
+    background-color: #4d5dec;
+    height: 66px;
+  
+  }
+  
+  .registered_user .menu_user {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+ 
+  .fa {
+    font-size: 26px;
+  }
+  
+  
+  .registered_user i {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .registered_user i:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .calendar_info{
+      margin-top: 40px;
+  }
+  
+  .calendar_info .box_calendar_info{
+      margin-top: 25px;
+  }
+  .calendar_info .box_event_calendar{
+      display: flex;
+      width: 100%;
+      height: 95px;
+      background: #F3F3FD;
+      border-radius: 12px;
+  }
+  .calendar_info .box_event_text{
+      width: 97%;
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  .calendar_info .heading_calendar{
+      margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .calendar_info .week_items{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D5DEC;
+
+  }
+  .calendar_info .event_text{
+    font-weight: 400;
+    font-size: 12px;
+    color: #656565;
+    /* line-height: 0; */
+
+  }
+  .calendar_info .event_name{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+   .calendar_info .box_show_time{
+      width: 85px;
+      height: 95px;
+      background-color:#4D5DEC; 
+      border: 0.5px solid #4D5DEC;
+      box-sizing: border-box;
+      border-radius: 12px;
+  }
+  .calendar_info .box_event_items{
+      width: 100%;
+      padding-left: 8px;
+
+  }
+  .calendar_info .time{
+      text-align: center;
+      margin-top: 35px;
+      color:#fff ;
+  }
+  
+ 
+ 
+  
+  footer {
+    height: 280px;
+    background-color: #1c193d;
+    margin-top: 30px;
+  }
+  .footer_items_box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+  }
+  .footer_items_box a:hover {
+    color: #3b4bdb;
+  }
+  
+  .footer_items_box .footer_items_promo {
+    width: 287px;
+    height: 230px;
+  }
+  
+  .footer_items_promo a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26.1684px;
+    color: #fff;
+  }
+  
+  .footer_items_promo .footer_text_promo {
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+  }
+  .footer_serach_text a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+  }
+  .footer_registr_text a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+  }
+  .footer_category_text a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .footer_items_box .soc_set {
+    margin-right: 22px;
+  }
+  
+ 
+  
+  
+  
+  @media screen and (max-width: 1350px) {
+    .container_all {
+      max-width: 1300px;
+    }
+    
+  
+  @media screen and (max-width: 1270px) {
+    .container_all {
+      max-width: 1200px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .container_all {
+      max-width: 1146px;
+    }
+   
+  }
+  
+  /* iPad Pro */
+  
+  @media screen and (max-width: 1024px) {
+    .container_all {
+      max-width: 950px;
+      margin: 0 auto;
+    }
+
+    .fa{
+        font-size: 30px;
+    }
+
+    footer .container_all {
+      max-width: 100%;
+    }
+    .footer_items_box {
+      justify-content: space-around;
+    }
+    .footer_items_box .footer_items_promo {
+      width: 229px;
+    }
+    footer .footer_mobile{
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container_all {
+      max-width: 750px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container_all {
+      max-width: 740px;
+    }
+    footer .footer_mobile{
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .container_all {
+      max-width: 360px;
+      margin: 0 auto;
+    }
+    section .container_all{
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .registered_user {
+      display: block;
+    }
+   .fa{
+       font-size: 26px;
+   }
+    footer {
+      min-height: 730px;
+    }
+    footer .container_all {
+      max-width: 87%;
+    }
+    .footer_items_box {
+      display: block;
+    }
+    .footer_items_box .footer_items_promo {
+      width: 86%;
+      height: 214px;
+    }
+    .footer_items_box .footer_registr_text {
+      border-top: 1px solid black;
+      padding-top: 17px;
+      border-bottom: 1px solid black;
+      padding-bottom: 17px;
+    }
+    .footer_items_box .footer_category_text {
+      padding-top: 17px;
+    }
+    footer .footer_mobile {
+      display: block;
+      text-align: center;
+      padding: 20px 0px;
+      font-size: 18px;
+      background-color: #0d1234;
+      color: #fff;
+    }
+
+  
+  }
+  
+  @media screen and (max-width: 414px) {
+    .container_all {
+      max-width: 390px;
+      margin: 0 auto;
+    }
+   
+   
+    footer {
+      min-height: 730px;
+    }
+    footer .container_all {
+      max-width: 87%;
+    }
+    .footer_items_box {
+      display: block;
+    }
+    .footer_items_box .footer_items_promo {
+      width: 86%;
+      height: 214px;
+    }
+    .footer_items_box .footer_registr_text {
+      border-top: 1px solid black;
+      padding-top: 17px;
+      border-bottom: 1px solid black;
+      padding-bottom: 17px;
+    }
+    .footer_items_box .footer_category_text {
+      padding-top: 17px;
+    }
+    footer .footer_mobile {
+      display: block;
+      text-align: center;
+      padding: 20px 0px;
+      font-size: 18px;
+      background-color: #0d1234;
+      color: #fff;
+    }
+   
+  }
+
+  @media screen and (max-width: 360px) {
+     section .container_all{
+      max-width: 340px;
+      margin: 0 auto;
+      }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .container_all {
+      max-width: 300px;
+    }
+    
+   section .container_all{
+       max-width: 300px;
+   }
+    .footer_mobile {
+      padding: 15px 0px 1px 0px;
+    }
+    .footer_items_box .soc_set {
+      padding-bottom: 10px;
+    }
+    .footer_items_box .footer_registr_text {
+      padding-top: 5px;
+      padding-bottom: 0px;
+    }
+    .footer_items_box .footer_category_text {
+      padding-top: 5px;
+    }
+  
+    .footer_serach_text {
+      margin-top: 10px;
+    }
+
+  }

@@ -1,0 +1,156 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.come_in .container_all {
+  max-width: 100%;
+}
+.sidebar button {
+  width: 330px;
+}
+.come_in_box {
+  display: flex;
+}
+
+.button_group {
+  text-align: center;
+}
+.button_group a {
+  display: block;
+  line-height: 4;
+}
+.button_group p {
+  margin-top: 26px;
+}
+.sidebar {
+  margin: 0 auto;
+  padding-top: 56px;
+}
+.sidebar .sidebar_text {
+  font-weight: 700;
+  font-size: 26px;
+}
+.come_in .btn {
+  height: 48px;
+}
+.enter_img {
+  width: 850px;
+  height: 760px;
+  background-color: #626370;
+  background-blend-mode: multiply;
+  background-image: url("../images/enter_img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.enter_img h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 64.1538px;
+  text-align: center;
+  margin-top: 33%;
+}
+.form-group a {
+  text-decoration: none;
+  color: #626370;
+}
+
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1350px) {
+  .container_all {
+    max-width: 1300px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .container_all {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container_all {
+    max-width: 1146px;
+  }
+  .come_in .enter_img {
+    width: 600px;
+    height: 650px;
+  }
+
+  .enter_img h2 {
+    margin-top: 47%;
+  }
+}
+
+/* iPad Pro */
+
+@media screen and (max-width: 1024px) {
+  .container_all {
+    max-width: 950px;
+  }
+
+  .sidebar {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container_all {
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container_all {
+    max-width: 740px;
+  }
+  .sidebar {
+    padding-top: 20px;
+  }
+  .come_in .enter_img {
+    width: 500px;
+    height: 630px;
+  }
+
+  .enter_img h2 {
+    margin-top: 65%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .come_in .enter_img {
+    display: none;
+  }
+  .come_in .enter_img_2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .come_in .enter_img {
+    display: none;
+  }
+  .come_in .enter_img_2 {
+    display: none;
+  }
+  .come_in form {
+    width: 300px;
+  }
+  .come_in button {
+    width: 300px;
+    height: 47px;
+    margin-left: 0px;
+  }
+  .come_in img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
