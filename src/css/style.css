@@ -1,14 +1,14 @@
+
 * {
   font-family: "Roboto", sans-serif;
 }
-.box_modal{
+.box_modal {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  
 }
 
-.modal_gamburger .modal_lupa{
+.modal_gamburger .modal_lupa {
   width: 16px;
   height: 16px;
   position: absolute;
@@ -16,70 +16,46 @@
   bottom: 11px;
   opacity: 0.4;
 }
-.modal_gamburger .box_all{
+.modal_gamburger .box_all {
   opacity: 0.7;
 }
-.modal_gamburger .form-control{
+.modal_gamburger .form-control {
   opacity: 0.6;
 }
-.modal_gamburger{
+.modal_gamburger {
   display: none;
   position: absolute;
   background: #fff;
   width: 100%;
-  height: 370px
+  height: 370px;
 }
-  
-.modal_gamburger .box_lang{
+
+.modal_gamburger .box_lang {
   width: 140px;
   display: flex;
   justify-content: space-between;
 }
-.modal_gamburger .close{
+.modal_gamburger .close {
   cursor: pointer;
   font-size: 30px;
 }
-.modal_gamburger .lang_items{
+.modal_gamburger .lang_items {
   font-size: 16px;
   color: #626370;
   cursor: pointer;
 }
-.modal_gamburger .lang_items:hover{
+.modal_gamburger .lang_items:hover {
   color: #3b4bdb;
 }
-.modal_gamburger a{
- text-decoration: none;
- font-size: 16px;
- color: #626370;
- line-height: 30px;
-}
-.modal_gamburger a:hover{
-  color: #3b4bdb;
-}
-
-/* .box_nav_menu{
-  display: none;
-}
-.box_nav_menu .nav_menu{
-  height: 60px;
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  padding: 0px;
-} 
-.box_nav_menu .nav_lupa{
-  width: 18px;
-}
-.box_nav_menu .nav_logo_text{
+.modal_gamburger a {
   text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-}
-.box_nav_menu .nav_category{
+  font-size: 16px;
   color: #626370;
-  font-size: 14px;
-  text-decoration: none;
-} */
+  line-height: 30px;
+}
+.modal_gamburger a:hover {
+  color: #3b4bdb;
+}
 
 body {
   margin: 0px;
@@ -181,53 +157,71 @@ header {
 }
 
 .promo_info {
-  height: 280px;
-  padding-top: 30px;
+  max-height: 100%;
+  padding: 30px 0px 50px 0px;
   background-color: #030027;
 }
+
 .promo_info .promo_second_text {
-  font-size: 40px;
   font-weight: 700;
-  text-align: center;
+  font-size: 40px;
   color: #fff;
-  word-spacing: 7px;
+  line-height: 140%;
+  text-align: center;
 }
 
-.promo_info .promo_find_text {
-  font-size: 22px;
-  font-weight: 400;
-  color: #fff;
-}
 .promo_info .promo_info_box {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+}
+
+.promo_info .promo_find_text {
+  font-weight: 600;
+  font-size: 22px;
+  color: #fff;
+  line-height: 27px;
 }
 .promo_info .promo_text_info {
   font-size: 14px;
-  font-weight: 400;
   color: #fff;
-}
-.promo_info .box_info_1 {
-  width: 258px;
-}
-.promo_info .box_info_2 {
-  width: 294px;
-  padding-left: 78px;
+  line-height: 145%;
 }
 .promo_info .promo_img_lupa {
   width: 50px;
-  position: absolute;
-  left: 28%;
+  height: 50px;
+  margin-left: 30px;
 }
 .promo_info .promo_img_pluse {
   width: 50px;
-  position: absolute;
-  left: 50%;
+  height: 50px;
+  margin-left: 18px;
 }
-.promo_info .icons_str {
-  width: 150px;
-  color: #fff;
+
+.promo_info .get_in {
+  width: 130px;
+  margin-left: 23%;
+}
+.promo_info .box_text {
+  max-width: 17em;
+}
+.promo_info .box_text_2 {
+  max-width: 19em;
+}
+.promo_info .box_info_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 24em;
+}
+.promo_info .box_info_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 25em;
+}
+.promo_info .box_com {
+  width: 63%;
+  text-align: end;
 }
 
 .promo_slider .promo_text_slider {
@@ -367,8 +361,8 @@ header {
   background-color: #f3f3fd;
 }
 .second_card .GDG_img {
-  width: 96px;
-  height: 31px;
+  width: 122px;
+  height: 40px;
   margin-top: 56px;
 }
 .second_card .info_text {
@@ -542,7 +536,6 @@ footer {
   text-decoration: none;
 }
 
-
 /* .box_promo .break {
   display: none;
 } */
@@ -622,19 +615,15 @@ footer {
   font-size: 14px;
 }
 
-
-
-
-
 @media screen and (max-width: 1400px) {
+
+  .container_all {
+    max-width:1300px ;
+  }
   .menu {
     display: block;
   }
-  
 
-  .promo_info .promo_img_lupa {
-    left: 26%;
-  }
   .carousel {
     width: 1290px;
     margin: 0 auto;
@@ -665,9 +654,6 @@ footer {
   .container_all {
     max-width: 1200px;
   }
-  .promo_info .promo_img_lupa {
-    left: 24%;
-  }
   .carousel {
     width: 1000px;
     margin: 0 auto;
@@ -685,10 +671,6 @@ footer {
   header {
     margin-left: 25px;
   }
-
-  .promo_info .promo_img_lupa {
-    left: 22%;
-  }
   .promo_slider .carousel {
     width: 1000px;
     margin: 0 auto;
@@ -705,22 +687,15 @@ footer {
   .container_all {
     max-width: 950px;
   }
-  
+
   header {
     display: none;
   }
-  .mobile{
+  .mobile {
     display: block;
   }
- .mobile .gamburger_menu_mobile{
-   padding-top: 15px;
- }
-  .promo_info .promo_img_lupa {
-    left: 17%;
-    width: 40px;
-  }
-  .promo_info .promo_img_pluse {
-    width: 40px;
+  .mobile .gamburger_menu_mobile {
+    padding-top: 15px;
   }
   .promo_slider .carousel {
     max-width: 865px;
@@ -752,9 +727,6 @@ footer {
   .menu .logo_text {
     left: 320px;
   }
-  .promo_info .promo_img_lupa {
-    left: 8%;
-  }
   .promo_slider .carousel {
     max-width: 670px;
     margin: 0 auto;
@@ -769,23 +741,22 @@ footer {
   .container_all {
     max-width: 740px;
   }
-  .mobile{
+  .mobile {
     display: block;
   }
-  .mobile .gamburger_menu_mobile{
+  .mobile .gamburger_menu_mobile {
     padding-top: 15px;
   }
   .menu .logo_text {
     left: 300px;
   }
-  .promo_info .promo_img_lupa {
-    left: 8%;
+  .promo_info .promo_img_lupa{
+    width: 40px;
+    height: 40px;
   }
-  .promo_info .promo_img_pluse {
-    left: 52%;
-  }
-  .promo_info .promo_info_box {
-    margin-left: 20px;
+  .promo_info .promo_img_pluse{
+    width: 40px;
+    height: 40px;
   }
   .promo_slider .carousel {
     max-width: 620px;
@@ -797,20 +768,223 @@ footer {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .container_all {
+    max-width: 340px;
+  }
+  .container-fluid{
+    max-width:  91%;
+  }
+  header {
+    display: none;
+  }
+  .box_nav_menu {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    height: 65px;
+  }
+  .mobile .gamburger_menu_mobile {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  .mobile .gamburger_img {
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+  .mobile .logo_text_mobile {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .mobile .menu_text_mobile {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  .gamburger_menu_mobile a {
+    color: #3b4bdb;
+    text-decoration: none;
+  }
+  .promo {
+    height: 546px;
+    background-image: url("../images/promo_svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+  }
+  .promo .box_promo {
+    height: 575px;
+  }
+  .box_promo .promo_first_text {
+    font-size: 26px;
+  }
+  .promo .break {
+    display: block;
+  }
+
+  .promo .btn {
+    width: 300px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .promo_info {
+    height: 380px;
+  }
+
+  .promo_info .promo_info_box {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px;
+  }
+  .promo_info .promo_second_text {
+    font-size: 24px;
+    text-align: start;
+  }
+  .promo_info .promo_img_lupa {
+    display: none;
+  }
+  .promo_info .promo_img_pluse {
+    display: none;
+  }
+  .promo_info br{
+    display: none;
+  }
+  .promo_info p{
+    opacity: 0.8;
+  }
+  .promo_info .box_info_1{
+    justify-content: start;
+  }
+  .promo_info .box_info_2 {
+    justify-content: start;
+    padding-left: 0px;
+    margin-top: 12px;
+  }
+  .promo_info .box_com{
+    text-align: start;
+  }
+  .promo_info .get_in{
+    margin-left: 0px;
+  }
+  .promo_slider .activity {
+    font-size: 22px;
+  }
+  .promo_slider .activity_text {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  .promo_slider .carousel {
+    max-width: 300px;
+  }
+  .promo_slider .second_carousel {
+    max-width: 300px;
+  }
+
+  .gallery {
+    height: 195px;
+  }
+  .card {
+    width: 288px;
+    height: 190px;
+  }
+  .btn_card {
+    width: 97px;
+  }
+  .second_card {
+    width: 245px;
+    height: 270px;
+  }
+  .second_card .card_GDG_img {
+    width: 240px;
+    height: 120px;
+  }
+  .second_card .GDG_img {
+    margin-top: 45px;
+  }
+  .galler {
+    height: 276px;
+  }
+  .carousel .arrow {
+    display: none;
+  }
+  .second_carousel .arrow_prev {
+    display: none;
+  }
+
+  .category h2 {
+    font-size: 22px;
+  }
+  .category .category_items {
+    margin-top: 14px;
+  }
+  .category .items_btn {
+    display: flex;
+    flex-direction: row;
+  }
+  .category .category_btn {
+    padding: 5px 14px;
+    font-size: 14px;
+  }
+
+  footer {
+    min-height: 730px;
+  }
+  footer .container_all {
+    max-width: 87%;
+  }
+  .footer_items_box {
+    display: block;
+  }
+  .footer_items_box .footer_items_promo {
+    width: 86%;
+    height: 214px;
+  }
+  .footer_items_box .footer_registr_text {
+    border-top: 1px solid black;
+    padding-top: 17px;
+    border-bottom: 1px solid black;
+    padding-bottom: 17px;
+  }
+  .footer_items_box .footer_category_text {
+    padding-top: 17px;
+  }
+  .footer_mobile {
+    display: block;
+    text-align: center;
+    padding: 17px 0px;
+    font-size: 18px;
+    background-color: #0d1234;
+    color: #fff;
+  }
+  .come_in .enter_img {
+    display: none;
+  }
+  .come_in .enter_img_2 {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 375px) {
   .container_all {
     max-width: 340px;
   }
-  .registered_user{
+  .container-fluid{
+    max-width: 97%;
+  }
+  .registered_user {
     display: block;
   }
   header {
     display: none;
   }
-  .box_nav_menu{
+  .box_nav_menu {
     display: none;
   }
-  
+
   .mobile {
     display: block;
     height: 65px;
@@ -997,191 +1171,17 @@ footer {
   }
 }
 
-@media screen and (max-width: 414px) {
-  .container_all {
-    max-width: 340px;
-  }
-  header {
-    display: none;
-  }
-  .box_nav_menu{
-    display: none;
-  }
-  .mobile {
-    display: block;
-    height: 65px;
-  }
-  .mobile .gamburger_menu_mobile {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 15px;
-  }
-  .mobile .gamburger_img {
-    width: 24px;
-    height: 24px;
-    margin-top: 2px;
-    cursor: pointer;
-  }
-  .mobile .logo_text_mobile {
-    font-size: 26px;
-    font-weight: 700;
-  }
-  .mobile .menu_text_mobile {
-    font-size: 16px;
-    padding-top: 5px;
-  }
-  .gamburger_menu_mobile a {
-    color: #3b4bdb;
-    text-decoration: none;
-  }
-  .promo {
-    height: 546px;
-    background-image: url("../images/promo_svg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: soft-light;
-  }
-  .promo .box_promo {
-    height: 575px;
-  }
-  .box_promo .promo_first_text {
-    font-size: 26px;
-  }
-  .promo .break {
-    display: block;
-  }
-
-  .promo .btn {
-    width: 300px;
-    height: 45px;
-    font-size: 16px;
-  }
-  .promo_info {
-    height: 380px;
-  }
-  .promo_info .promo_info_box {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 0px;
-  }
-  .promo_info .promo_second_text {
-    font-size: 24px;
-    text-align: start;
-  }
-  .promo_info .promo_img_lupa {
-    display: none;
-  }
-  .promo_info .promo_img_pluse {
-    display: none;
-  }
-  .promo_info .box_info_2 {
-    padding-left: 0px;
-    margin-top: 12px;
-  }
-  .promo_slider .activity {
-    font-size: 22px;
-  }
-  .promo_slider .activity_text {
-    margin-top: 0px;
-    font-size: 14px;
-  }
-  .promo_slider .carousel {
-    max-width: 300px;
-  }
-  .promo_slider .second_carousel {
-    max-width: 300px;
-  }
-
-  .gallery {
-    height: 195px;
-  }
-  .card {
-    width: 288px;
-    height: 190px;
-  }
-  .btn_card {
-    width: 97px;
-  }
-  .second_card {
-    width: 245px;
-    height: 270px;
-  }
-  .second_card .card_GDG_img {
-    width: 240px;
-    height: 120px;
-  }
-  .second_card .GDG_img {
-    margin-top: 45px;
-  }
-  .galler {
-    height: 276px;
-  }
-  .carousel .arrow {
-    display: none;
-  }
-  .second_carousel .arrow_prev {
-    display: none;
-  }
-
-  .category h2 {
-    font-size: 22px;
-  }
-  .category .category_items {
-    margin-top: 14px;
-  }
-  .category .items_btn {
-    display: flex;
-    flex-direction: row;
-  }
-  .category .category_btn {
-    padding: 5px 14px;
-    font-size: 14px;
-  }
-
-  footer {
-    min-height: 730px;
-  }
-  footer .container_all {
-    max-width: 87%;
-  }
-  .footer_items_box {
-    display: block;
-  }
-  .footer_items_box .footer_items_promo {
-    width: 86%;
-    height: 214px;
-  }
-  .footer_items_box .footer_registr_text {
-    border-top: 1px solid black;
-    padding-top: 17px;
-    border-bottom: 1px solid black;
-    padding-bottom: 17px;
-  }
-  .footer_items_box .footer_category_text {
-    padding-top: 17px;
-  }
-  .footer_mobile {
-    display: block;
-    text-align: center;
-    padding: 17px 0px;
-    font-size: 18px;
-    background-color: #0d1234;
-    color: #fff;
-  }
-  .come_in .enter_img {
-    display: none;
-  }
-  .come_in .enter_img_2 {
-    display: none;
-  }
-}
 
 @media screen and (max-width: 320px) {
   .container_all {
-    max-width: 300px;
+    max-width: 290px;
   }
   header {
     display: none;
+  }
+  .promo .btn{
+    width: 270px;
+    margin-left: 3px;
   }
   .promo .break {
     display: none;
