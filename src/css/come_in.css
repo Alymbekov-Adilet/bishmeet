@@ -1,14 +1,19 @@
+
 * {
   font-family: "Roboto", sans-serif;
 }
 
 .come_in .box_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .box_img {
-  height: 750px;
+  height: 800px;
   overflow: hidden;
   background-color: #000;
 }
@@ -31,9 +36,15 @@ h1 {
   color: #ffffff;
 }
 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   list-style-type: none;
   padding: 0px;
 }
@@ -48,8 +59,12 @@ li {
 }
 
 .come_in_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 .come_in_box .or {
   padding-top: 23px;
@@ -109,7 +124,9 @@ li {
     margin-top: 75px;
   }
   .come_in .box_flex{
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   h1{
     top: 43%;
@@ -129,7 +146,9 @@ li {
 
 @media screen and (max-width:414px){
   .come_in .box_flex{
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .come_in .box_img{
     display: none;

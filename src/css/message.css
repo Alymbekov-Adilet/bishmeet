@@ -1,3 +1,4 @@
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -25,8 +26,12 @@ body {
 }
 
 .registered_user .menu_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
@@ -49,14 +54,19 @@ body {
   width: 100%;
   background: #f3f3fd;
   border: 1px solid #e4e4e4;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .sms .box_sms {
   margin-top: 40px;
 }
 .sms .box_sms_choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 71%;
   margin: 0 auto;
 }
@@ -85,6 +95,8 @@ body {
 
 .sms .sms_event {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 24px;
   padding-top: 10px;
@@ -94,8 +106,12 @@ body {
   margin-left: 13px;
 }
 .sms .sms_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .sms .sms_heading {
   font-weight: 700;
@@ -123,7 +139,8 @@ body {
   width: 100%;
   height: 62px;
   border: 1px solid #3b4bdb;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 8px;
   font-weight: 400;
   font-size: 20px;
