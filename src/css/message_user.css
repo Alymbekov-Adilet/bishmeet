@@ -1,0 +1,228 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .sms_box {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  .box_message_modal {
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+  }
+  .box_message_modal .message_modal {
+    width: 50%;
+    height: 250px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 3px solid;
+    border-color: #505050;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .sms_box .form_input {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .box_container {
+    max-width: 700px;
+  }
+  
+  .registered_user {
+    display: block;
+    background-color: #4d5dec;
+    height: 66px;
+  }
+  
+  .registered_user .menu_user {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .fa {
+    font-size: 26px;
+  }
+  
+  .registered_user i {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .registered_user i:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+ 
+  .sms_user .sms_event_user {
+    margin-top: 40px;
+  }
+  
+  .sms_user {
+    min-height: 600px;
+  }
+ 
+  
+  .sms_user .sms_event_user {
+    width: 100%;
+    display: flex;
+    margin-top: 24px;
+    padding-top: 10px;
+  }
+  .sms_user .box_sms_event_user {
+    width: 100%;
+    margin-left: 13px;
+  }
+  .sms_user .sms_name_user {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sms_user .sms_heading_user {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .sms_user .logo_event_user img {
+    width: 50px;
+  }
+  .sms_user .sms_text_user {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+  }
+  .sms_user .sms_info_text_user {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .sms_user .txt {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .box_sms_btn {
+    margin-bottom: 41px;
+  }
+  .box_sms_btn .sms_btn {
+    width: 100%;
+    height: 62px;
+    border: 1px solid #3b4bdb;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3b4bdb;
+  }
+
+ 
+  
+  @media screen and (max-width: 1350px) {
+    .container_all {
+      max-width: 1300px;
+    }
+  }
+  
+  @media screen and (max-width: 1270px) {
+    .container_all {
+      max-width: 1200px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .container_all {
+      max-width: 1146px;
+    }
+  }
+  
+  /* iPad Pro */
+  
+  @media screen and (max-width: 1024px) {
+    .container_all {
+      max-width: 950px;
+      margin: 0 auto;
+    }
+  
+    .fa {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .container_all {
+      max-width: 750px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container_all {
+      max-width: 740px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .container_all {
+      max-width: 390px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .container_all {
+      max-width: 360px;
+      margin: 0 auto;
+    }
+    section .container_all {
+      max-width: 350px;
+      margin: 0 auto;
+    }
+    .registered_user {
+      display: block;
+    }
+    .fa {
+      font-size: 26px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    section .container_all {
+      max-width: 340px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .container_all {
+      max-width: 300px;
+    }
+  
+    section .container_all {
+      max-width: 300px;
+    }
+  }
+  
